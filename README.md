@@ -1,6 +1,6 @@
 # Bug Bounty Tools
 
-Most of the tools include a one-liner bash command. I use them in Python.
+Most of the tools include a one-liner bash command. I use them with Python.
 
 ### SSTI Scan
 
@@ -24,7 +24,7 @@ $ python3 cors.py -ul urls.txt -d example.com
 
 __[corscan.py](https://github.com/AngixBlack/Corscan/tree/main)__   belongs [AngixBlack](https://github.com/AngixBlack). I use this tool for one of my projects, and it does not include a silent option, so I added some codes. 
 - print(logo) Turn in to comment.
-- I added this fıntion __remove_ansi_escape_sequences__ for clean output.
+- I added this function __remove_ansi_escape_sequences__ for clean output.
 
 ### CSRF Scan
 
@@ -43,7 +43,7 @@ $ python3 lfiscan.pt -l urls.txt -p wordlist/lfipayload.txt
 
 ### Open Redirect Scan
 
-This tool belongs to [devanshbatham](https://github.com/devanshbatham). I just clear colors, and banners, and for plain results.
+This tool belongs to [devanshbatham](https://github.com/devanshbatham). I just clear colors and banners for plain results.
 ```bash
 $ cat urls.txt | python3 redirectscan -p wordlist/redirect_payloads.txt -k FUZZ 
 ```
